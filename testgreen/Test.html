@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://greencompute.uk/MMU/Zcurry/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Curry Is Us</title>
+
+    <script>document.getElementById("demo")="michael";</script>
+  </head><body>
+<h1>Restaurant from Us to You</h1>
+    As the video shows we have a warm, inviting and pleasant restaurant.<p>
+   <!--   <video width="80%" autoplay="" loop="" muted="" src="videos/vecteezy_semarang-indonesia-circa-2023-soesmans-kota-lama_40467752.mp4"></video> -->
+      <img width="80%" src="./videos/curry.avif"> <!--converted to mp4-->
+</p><p>
+  Our restaurant opens at 5pm. The current time is
+</p><p id="currentTime">17:37:33</p>
+
+<h1>Tasty Is Us</h1>
+And as our videos show, we have tantalising spicy dishes from around the world<p>
+      <video muted="" src="videos/biryani.mp4"></video>
+      <!--width="80%" autoplay="" loop=""-->
+</p><h1>Book with Us</h1>
+Please email us at curry@is.us to select from our supreme menues, scroll down for more.
+<img width="80%" src="./Curry_Is_Us_files/6696657.avif"><!--converted to webp-->
+  Our restaurant opens at 5pm.
+
+<h1>Connect with Us</h1>
+<img src="./Curry_Is_Us_files/phone.jfif">0161 61 61
+<!--height="300px"-->
+<p>or you can fax us on<br>
+<img src="./Curry_Is_Us_files/fax.gif">0161 16 16.</p><p> <!--left the same mp4 is actually bad here-->
+  <!--height="200px" -->
+  We answer calls when the restaurant is open, that is from 5pm onwards. 
+
+
+</p><hr>
+      Videos from vecteezy.com with thanks to embarafootage, towfiqu_nsu528818, topntp26 (respectively). Stills from freepik.com. Animations from icons8.com.
+
+<script> // placed at end to prevent render blocking. updates every minute ratherthan second
+
+  // Function to update the current time
+  function updateTime() {
+      const currentDate = new Date();
+      const hours = String(currentDate.getHours()).padStart(2, '0');
+      const minutes = String(currentDate.getMinutes()).padStart(2, '0');
+      const formattedTime = `${hours}:${minutes}`;
+      document.getElementById("currentTime").textContent = formattedTime;
+  }
+
+  // Initial call to display current time
+  updateTime();
+
+  // Update time every minute
+  setInterval(updateTime, 60000);
+</script>
+
+</body></html>
